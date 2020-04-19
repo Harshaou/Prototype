@@ -1,0 +1,143 @@
+
+.live-main-container {
+    font-family: 'Ubuntu', sans-serif;
+	width: 360px;
+	height: 570px;
+	margin: .5em auto;
+}	
+	/*********************************************** HEADER ***********************************************/
+	
+		
+			
+	/** CONTAINERS **/
+	.container {
+		float: left;
+		width: 360px;
+	}
+	.block-header {
+		margin-bottom: 6px;
+		background: black ;
+		border-radius: 5px;
+	}
+		.live-block {
+			margin-bottom: 6px;
+			border-radius: 5px;
+		}
+		/******************************************** LEFT CONTAINER *****************************************/
+		.left-container {}
+			.live-menu-box {
+                height: 483px;
+                background: rgb(1, 25, 41) ;
+			}
+			h4{
+				margin: 0px;
+			}
+				
+				
+				.menu-box-number {
+					color: red;
+					width: 16px;
+					line-height: 22px;
+					text-align: center;
+					position: absolute;
+					top: 20px;
+					right: 35px;
+					-webkit-transition: all .3s;
+					transition: all .3s;
+                }
+                
+
+				
+				
+				.live-content{
+					border-bottom: 1px solid white;
+					-webkit-transition: background .2s;
+					transition: background .2s;
+				}
+
+
+					.menu-box-tab:hover {
+						border-radius: 15px;
+						text-decoration: none;
+					}
+					.menu-box-tab:hover .icon {
+						color: #fff;
+                    }
+                    
+
+	
+				.live-listener{
+					background-color: linear-gradient(to left, rgb(39, 10, 117), rgb(134, 96, 223));
+					margin-bottom: 0px;
+					padding-bottom: 0px;
+					margin-left: 40px;
+							
+				}
+
+
+				.live-listening{
+					margin-left: 65px;
+					color: grey;
+					font-size: 12px;
+					padding-top: 5px;
+					
+				}
+
+				.live-content:hover{
+					border-radius: 15px;
+					
+				}
+
+				#header-active-hotlist{
+					text-decoration: none;
+					border-radius: 15px;
+					background: linear-gradient(to left, rgb(39, 10, 117), rgb(134, 96, 223));
+					
+				}
+
+			.person{
+                width: 40px;
+				padding-top: 10px;
+            }
+            
+            .music{
+                width: 17px;
+                padding-right: 5px;
+			}
+			
+			.stream-duration{
+				color: grey;
+				padding: 2px;
+			}
+
+			.join{
+				float: right;
+				text-align: center;
+				margin-right:25px ;
+				margin-top: 22px;
+				border-radius: 10px;
+				width: 60px;
+				cursor: pointer;
+				border: 2px solid rgb(255, 255, 255);
+			}
+
+			.join:hover{
+				background-color: rgb(101, 63, 189);
+				-webkit-transition: background .2s;
+					transition: background .2s;
+			}
+
+			.listeners-count{
+				text-align: center;
+				height: 40px;
+				background: linear-gradient(to left, rgb(39, 10, 117), rgb(134, 96, 223));
+				color: black;
+			}
+
+			.filter{
+				width: 30px;
+				padding-left: 7px;
+				padding-top: 6px;
+			}
+
+		
